@@ -33,6 +33,8 @@ public class TelaSobre extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("TecAuto_Sobre");
+        setPreferredSize(new java.awt.Dimension(417, 322));
+        setResizable(false);
 
         jLabel1.setText("Sistema para controle de Ordem de Serviços");
 
@@ -49,14 +51,10 @@ public class TelaSobre extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(47, 47, 47)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel1))
-                        .addContainerGap(109, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel3)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel3))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel4)
@@ -76,7 +74,7 @@ public class TelaSobre extends javax.swing.JFrame {
                 .addGap(32, 32, 32))
         );
 
-        pack();
+        setSize(new java.awt.Dimension(433, 361));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
