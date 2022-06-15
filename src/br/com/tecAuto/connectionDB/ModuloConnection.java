@@ -18,9 +18,9 @@ public class ModuloConnection {
         // a linha abaixo "chama" o driver
         String driver = "com.mysql.jdbc.Driver";
         // armazenando informações referentes ao DB
-        String url = "jdbc:mysql://localhost:3306/gestao_servico";
-        String user = "root";
-        String password = "123456";
+        String url = "jdbc:mysql://localhost:3306/gestao_servico?characterEncoding=utf-8";
+        String user = "dba";
+        String password = "tecauto12345";
         // Estabelecendo a conexao com DB
         try {
             Class.forName(driver);
