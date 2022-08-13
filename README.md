@@ -1,2 +1,7 @@
-#nome do projeto: modeloTecAuto
-## sistema de gerenciamento de serviço
+#Objetivo
+- sistema de gerenciamento de serviço
+- Com Banco de dados
+
+## Definição
+
+
